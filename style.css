@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+header {
+    background-image: url(header.jpg);
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 80%;
+    margin: 90px auto; 
+}
+
+.square {
+    background-color: rgb(38, 38, 43);
+    color: white;
+    width: 300px; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sq1 {
+    margin-right: 20px; 
+}
+
+#sq3 {
+    margin-left: 20px; 
+}
+
+h2 {
+    font-size: 40px; 
+    margin-bottom: 20px;
+}
+
+.sobre-nosotros {
+    font-size: 50px;
+    margin: 0;
+}
+
+.contenedorcostos {
+    position: relative; 
+    width: 100%;
+    text-align: center;
+}
+
+.contenedorcostos img {
+    width: 100%; 
+    height: auto; 
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center;
+    width: 100%; 
+}
+
+.parrafo3 {
+    font-size: 18px;
+    margin: 20px auto;
+    width: 70%;
+}
+
+.boton2 {
+    width: 150px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    border: none;
+    margin: 20px auto;
+}
+
+.productos {
+
+    margin-top: 90px;
+
+}
